@@ -6,16 +6,32 @@
         #divContainer{
             text-align: center;
         }
+        .redText {
+    color: red;
+}
+/* may sample ng event */
+.redText:hover {
+    color:blue;
+    background-color: green;
+}
+/* ELEMENTS */
+div {
+    margin-bottom: 1rem;
+    font-size: large;
+}
+/* div {
+    margin-bottom: ;
+} */
     </style>
  </head>
  <body>
     <div id="divContainer">
         <h1>Login</h1>
-        <div><input type="text" placeholder="username" ></div>
-        <div><input type="text" placeholder="password"></div> 
-        <div><input type="text" placeholder="confirm password" ></div>
-        <div><input type="text" placeholder="first name"></div> 
-        <div><input type="text" placeholder="last name" ></div>
+        <div><input type="text" placeholder="username" class="redText"></div>
+        <div><input type="text" placeholder="password" class="redText"></div> 
+        <div><input type="text" placeholder="confirm password" class="redText"></div>
+        <div><input type="text" placeholder="first name" class="redText"></div> 
+        <div><input type="text" placeholder="last name" class="redText"></div>
        
         <div><button>cancel</button></div>
         <div><button>register</button></div>
